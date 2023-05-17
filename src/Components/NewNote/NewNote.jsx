@@ -21,7 +21,7 @@ export default function New({ allNotes, setAllNotes }) {
     document.getElementById('newText').value = '';
 
     // Adding the new note object to the array containing all notes
-    setAllNotes([...allNotes, note]);
+    setAllNotes([note, ...allNotes]);
   }
 
   return (

@@ -7,8 +7,10 @@ export default function Note({
   noteMessage,
   allNotes,
   setAllNotes,
+
 }) {
   function deleteNote() {
+
     // Create new array to store all notes except deleted note
     const newAllNotes = [];
 
@@ -23,8 +25,15 @@ export default function Note({
     setAllNotes(newAllNotes);
   }
 
+  const d = new Date();
+  const day = d.getDate();
+  const month = d.getMonth() + 1;
+  const year = d.getFullYear();
+  const date = `${day}/${month}/${year}`;
+
   return (
     <div className="note">
+      <p id="note-date">{date}</p>
       <p id="note-title">{noteTitle}</p>
       <p id="note-category">{noteCategory}</p>
       <p id="note-message">{noteMessage}</p>

@@ -36,3 +36,13 @@
 #del-button:hover {
   background-color: #bee4ea;
 }
+
+#note-date {
+  color: #a6dde4;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.note.deleted {
+  background-color: #d2d1d1;
+}
