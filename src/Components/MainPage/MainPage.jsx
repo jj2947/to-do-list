@@ -4,13 +4,18 @@ import NewNote from '../../Components/NewNote/NewNote';
 import ViewNotes from '../../Components/ViewNotes/ViewNotes';
 
 export default function MainPage({ allNotes, setAllNotes }) {
+  const d = new Date();
+  const day = d.getDate();
+  const month = d.getMonth() + 1;
+  const year = d.getFullYear();
+
   return (
     <div className="main-page">
       <div className="page-sections">
         <div className="left-section"></div>
 
         <div className="right-section">
-          <h1>Today</h1>
+          <h1>Today  {day}/{month}/{year}</h1>
           <NewNote allNotes={allNotes} setAllNotes={setAllNotes} />
           <ViewNotes allNotes={allNotes} setAllNotes={setAllNotes} />
         </div>

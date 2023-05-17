@@ -9,44 +9,44 @@
 }
 
 #newTitle::placeholder {
-  font-size: 22px;
+  font-size: xx-large;
   font-weight: 600;
-  color: #b6b6b6;
+  color: rgb(156, 156, 156);
 }
 
 #newTitle {
   width: 100%;
   outline: none;
-  font-size: 22px;
-  font-weight: 600;
-  color: #b6b6b6;
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(156, 156, 156);
   border-width: 0 0 0;
 }
 
 #newCategory::placeholder {
-  font-size: 16px;
-  color: #ffc700;
+  font-size: x-large;
+  color: #a6dde4;
 }
 
 #newCategory {
   width: 100%;
   outline: none;
-  font-size: 16px;
-  color: #ffc700;
+  font-size: x-large;
+  color: #a6dde4;
   border-width: 0 0 0;
 }
 
 #newText::placeholder {
-  font-size: 16px;
+  font-size: larger;
   color: #b6b6b6;
 }
 
 #newText {
   width: 100%;
-  height: 32px;
+  height: 35px;
   background-color: transparent;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: larger;
   color: #b6b6b6;
   outline: none;
   border-width: 0 0 0;
@@ -54,15 +54,16 @@
 
 #addButton {
   width: 60px;
-  height: 30px;
+  height: 28px;
   float: right;
-  background-color: #ffe27b;
-  color: black;
+  background-color: #a6dde4;
+  color: white;
   border: none;
+  font-size: large;
   border-radius: 5px;
 }
 
 #addButton:hover {
-  background-color: #ffefb7;
+  background-color: #bee4ea;
   transition: 0.2s ease;
 }

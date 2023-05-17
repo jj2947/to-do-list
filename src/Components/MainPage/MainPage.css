@@ -1,12 +1,12 @@
 .page-sections {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 20% 80%;
   height: 100vh;
 }
 
 .left-section {
   justify-content: center;
-  background-color: #ffe27b;
+  background-color: #a5e4e2;
   padding: 30px;
 }
 
@@ -16,4 +16,11 @@
   gap: 20px;
   background-color: #efeded;
   padding: 30px;
+}
+
+.right-section h1 {
+  color: #4b4a4a;
+  font-size: 40px;
+  font-weight: lighter;
+  letter-spacing: 2px;
 }

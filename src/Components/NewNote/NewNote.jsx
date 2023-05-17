@@ -27,8 +27,8 @@ export default function New({ allNotes, setAllNotes }) {
   return (
     <div className="new-note">
       <input id="newTitle" type="text" placeholder="Enter task title" />
-      <input id="newCategory" type="text" placeholder="Enter a category" />
-      <textarea id="newText" placeholder="Enter descriptions"></textarea>
+      <input id="newCategory" type="text" placeholder="Enter category" />
+      <textarea id="newText" placeholder="Enter description"></textarea>
       <button id="addButton" onClick={createNote} type="submit">
         Add
       </button>

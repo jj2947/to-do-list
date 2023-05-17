@@ -25,8 +25,8 @@ export default function Note({
 
   return (
     <div className="note">
-      <p id="note-category">{noteCategory}</p>
       <p id="note-title">{noteTitle}</p>
+      <p id="note-category">{noteCategory}</p>
       <p id="note-message">{noteMessage}</p>
       <button id="del-button" onClick={deleteNote}>
         Delete
