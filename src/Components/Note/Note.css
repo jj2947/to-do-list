@@ -21,7 +21,7 @@
 
 #note-message {
   font-size: 22px;
-  color: #b6b6b6;
+  color: #818181;
   line-height: normal;
 }
 
@@ -33,6 +33,7 @@
   width: 90px;
   height: 28px;
   font-size: large;
+  margin-top: auto;
 }
 
 #del-button:hover {

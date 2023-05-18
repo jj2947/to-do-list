@@ -53,7 +53,9 @@
   outline: 0;
   border-width: 0 0 2px;
   border-color: rgb(161, 212, 228);
-  
+  resize: vertical;
+  max-height: 200px;
+  min-height: 40px;
 }
 
 #addButton {
