@@ -16,11 +16,13 @@
 #note-category {
   color: #a6dde4;
   font-size: 25px;
+  font-weight: 500;
 }
 
 #note-message {
   font-size: 22px;
   color: #b6b6b6;
+  line-height: normal;
 }
 
 #del-button {
@@ -40,7 +42,7 @@
 #note-date {
   color: #a6dde4;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .note.deleted {

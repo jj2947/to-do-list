@@ -16,7 +16,7 @@ export default function Note({
 
     // Add all notes to array except the deleted note
     allNotes.map((note) => {
-      if (note.title !== noteTitle && note.category !== noteCategory) {
+      if (note.title !== noteTitle || note.category !== noteCategory || note.message !== noteMessage) {
         newAllNotes.push(note);
       }
     });

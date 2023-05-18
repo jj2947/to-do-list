@@ -20,7 +20,7 @@
   font-size: xx-large;
   font-weight: bold;
   color: rgb(156, 156, 156);
-  border-width: 0 0 0;
+  border-width: 0 0 0px;
 }
 
 #newCategory::placeholder {
@@ -33,7 +33,9 @@
   outline: none;
   font-size: x-large;
   color: #a6dde4;
-  border-width: 0 0 0;
+  outline: 0;
+  border-width: 0 0 0px;
+  border-color: rgb(150, 151, 151);
 }
 
 #newText::placeholder {
@@ -43,15 +45,15 @@
 
 #newText {
   width: 100%;
-  height: 35px;
+  height: 40px;
   background-color: transparent;
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
   color: #b6b6b6;
-  outline: none;
-  border-width: 0 0 0;
-  min-height: 35px;
-  max-height: 100px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgb(161, 212, 228);
+  
 }
 
 #addButton {
